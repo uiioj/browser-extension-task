@@ -1,4 +1,3 @@
-
 function App() {
   return (
     <>
@@ -6,11 +5,11 @@ function App() {
       <div className="min-h-screen bg-[#e9f3f8] px-30 py-10 ">
         {/* header */}
         <header className="bg-[#fbfdfe] flex justify-between rounded-2xl m-5 px-5">
-          <img src="images/logo.svg" />
+          <img src="src/images/logo.svg" />
 
           <button className="rounded-lg border border-gray-300 py-2 px-2 my-3  hover:bg-gray-200 active:bg-gray-300">
             <img
-              src="images/icon-moon.svg"
+              src="src/images/icon-moon.svg"
               className="h-5 w-5 cursor-pointer"
             />
           </button>
@@ -53,14 +52,11 @@ function App() {
                py-1.5 px-5
               hover:bg-[#c02f23] hover:text-[#fbfdfe]
               focus:ring-2 focus:ring-[#c02f23] cursor-pointer"
-           >
+            >
               Inactive
             </button>
           </div>
         </div>
-
-
-
 
         {/* cards div */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5">
@@ -68,11 +64,11 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-            <img src="images/logo-devlens-1.svg" />
+              <img src="src/images/logo-devlens-1.svg" />
               <div className="font-bold text-xl text-[#070e37]">
-              DevLens
+                DevLens
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Quickly inspect page layouts and visualize element boundaries.
+                  Quickly inspect page layouts and visualize element boundaries.
                 </div>
               </div>
             </div>
@@ -87,7 +83,8 @@ function App() {
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -100,7 +97,8 @@ function App() {
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -109,13 +107,12 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-             
-              <img src="images/logo-style-spy-2.svg" />
+              <img src="src/images/logo-style-spy-2.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              StyleSpy
+                StyleSpy
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Instantly analyze and copy CSS from any webpage element.
+                  Instantly analyze and copy CSS from any webpage element.
                 </div>
               </div>
             </div>
@@ -130,7 +127,8 @@ function App() {
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -143,16 +141,17 @@ function App() {
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
 
           {/*card 3  سطرين*/}
-                  <div className="bg-[#fbfdfe] rounded-2xl ">
+          <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-speed-boost-3.svg" />
+              <img src="src/images/logo-speed-boost-3.svg" />
               <div className="font-bold text-xl text-[#070e37]">
                 Speedboots
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
@@ -171,7 +170,8 @@ function App() {
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -184,7 +184,8 @@ function App() {
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -193,14 +194,12 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              
-              <img src="images/logo-json-wizard-4.svg" />
+              <img src="src/images/logo-json-wizard-4.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              JSONWizard
+                JSONWizard
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Formats, validates, and prettifies
-JSON responses in-browser.
+                  Formats, validates, and prettifies JSON responses in-browser.
                 </div>
               </div>
             </div>
@@ -215,7 +214,8 @@ JSON responses in-browser.
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -228,7 +228,8 @@ JSON responses in-browser.
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -237,13 +238,12 @@ JSON responses in-browser.
           <div className="bg-[#fbfdfe] rounded-2xl">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              
-              <img src="images/logo-tab-master-pro-5.svg" />
+              <img src="src/images/logo-tab-master-pro-5.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              TabMaster Pro
+                TabMaster Pro
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Organizes browser tabs into groups and sessions.
+                  Organizes browser tabs into groups and sessions.
                 </div>
               </div>
             </div>
@@ -258,7 +258,8 @@ JSON responses in-browser.
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -271,7 +272,8 @@ JSON responses in-browser.
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -280,13 +282,13 @@ JSON responses in-browser.
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-            
-              <img src="images/logo-viewport-buddy-6.svg"/>
+              <img src="src/images/logo-viewport-buddy-6.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              ViewportBuddy
+                ViewportBuddy
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Simulates various screen resolutions directly within the browser.
+                  Simulates various screen resolutions directly within the
+                  browser.
                 </div>
               </div>
             </div>
@@ -301,7 +303,8 @@ JSON responses in-browser.
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -314,7 +317,8 @@ JSON responses in-browser.
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -323,13 +327,13 @@ JSON responses in-browser.
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              
-            <img src="images/logo-markup-notes-7.svg" />
+              <img src="src/images/logo-markup-notes-7.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              Markup Notes
+                Markup Notes
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Enables annotation and notes directly onto webpages for collaborative debugging.
+                  Enables annotation and notes directly onto webpages for
+                  collaborative debugging.
                 </div>
               </div>
             </div>
@@ -344,7 +348,8 @@ JSON responses in-browser.
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -357,7 +362,8 @@ JSON responses in-browser.
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -366,13 +372,13 @@ JSON responses in-browser.
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              
-            <img src="images/logo-grid-guides-8.svg" />
+              <img src="src/images/logo-grid-guides-8.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              GridGuides
+                GridGuides
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Overlay customizable grids and alignment guides on any webpage.
+                  Overlay customizable grids and alignment guides on any
+                  webpage.
                 </div>
               </div>
             </div>
@@ -387,7 +393,8 @@ JSON responses in-browser.
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -400,7 +407,8 @@ JSON responses in-browser.
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -409,13 +417,12 @@ JSON responses in-browser.
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              
-            <img src="images/logo-palette-picker-9.svg" />
+              <img src="src/images/logo-palette-picker-9.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              Palette Picker
+                Palette Picker
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Instantly extracts color palettes from any webpage.
+                  Instantly extracts color palettes from any webpage.
                 </div>
               </div>
             </div>
@@ -430,7 +437,8 @@ JSON responses in-browser.
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -443,7 +451,8 @@ JSON responses in-browser.
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -452,13 +461,12 @@ JSON responses in-browser.
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              
-            <img src="images/logo-link-checker-10.svg" />
+              <img src="src/images/logo-link-checker-10.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              LinkChecker
+                LinkChecker
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Scans and highlights broken links on any page.
+                  Scans and highlights broken links on any page.
                 </div>
               </div>
             </div>
@@ -473,7 +481,8 @@ JSON responses in-browser.
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -486,7 +495,8 @@ JSON responses in-browser.
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -495,13 +505,12 @@ JSON responses in-browser.
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              
-            <img src="images/logo-dom-snapshot-11.svg" />
+              <img src="src/images/logo-dom-snapshot-11.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              DOM Snapshot
+                DOM Snapshot
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Capture and export DOM structures quickly.
+                  Capture and export DOM structures quickly.
                 </div>
               </div>
             </div>
@@ -516,7 +525,8 @@ JSON responses in-browser.
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -529,7 +539,8 @@ JSON responses in-browser.
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
@@ -538,13 +549,13 @@ JSON responses in-browser.
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              
-            <img src="images/logo-console-plus-12.svg" />
+              <img src="src/images/logo-console-plus-12.svg" />
 
               <div className="font-bold text-xl text-[#070e37]">
-              ConsolePlus
+                ConsolePlus
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
-                Enhanced developer console with advanced filtering and logging.
+                  Enhanced developer console with advanced filtering and
+                  logging.
                 </div>
               </div>
             </div>
@@ -559,7 +570,8 @@ JSON responses in-browser.
               {/*toggle button */}
               <label class="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
-                <div class="relative
+                <div
+                  class="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -572,7 +584,8 @@ JSON responses in-browser.
                 after:h-4 
                 after:w-4 
                 after:transition-all
-                peer-checked:bg-[#c02f23]"></div>
+                peer-checked:bg-[#c02f23]"
+                ></div>
               </label>
             </div>
           </div>
