@@ -32,7 +32,7 @@ function App() {
               className="
             text-[#070e37] bg-[#fbfdfe] rounded-full border border-gray-300
              py-1.5 px-5 
-              hover:bg-[#c02f23] hover:text-[#fbfdfe]
+              hover:bg-blue-600 hover:text-[#fbfdfe]
               focus:ring-2 focus:ring-[#c02f23] cursor-pointer"
             >
               All
