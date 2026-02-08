@@ -5,11 +5,11 @@ function App() {
       <div className="min-h-screen bg-[#e9f3f8] px-30 py-10 ">
         {/* header */}
         <header className="bg-[#fbfdfe] flex justify-between rounded-2xl m-5 px-5">
-          <img src="images/logo.svg" />
+          <img src="src/images/logo.svg" />
 
           <button className="rounded-lg border border-gray-300 py-2 px-2 my-3  hover:bg-gray-200 active:bg-gray-300">
             <img
-              src="images/icon-moon.svg"
+              src="src/images/icon-moon.svg"
               className="h-5 w-5 cursor-pointer"
             />
           </button>
@@ -32,7 +32,7 @@ function App() {
               className="
             text-[#070e37] bg-[#fbfdfe] rounded-full border border-gray-300
              py-1.5 px-5 
-              hover:bg-blue-500 hover:text-[#fbfdfe]
+              hover:bg-[#c02f23] hover:text-[#fbfdfe]
               focus:ring-2 focus:ring-[#c02f23] cursor-pointer"
             >
               All
