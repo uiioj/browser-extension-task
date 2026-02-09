@@ -1,17 +1,17 @@
+import logo from "./images/logo.svg";
+import icon_moon from "./images/icon-moon.svg";
+
 function App() {
   return (
     <>
       {/* parent div */}
-      <div className="min-h-screen bg-[#e9f3f8] px-30 py-10 ">
+      <div className="min-h-screen bg-[#e9f3f8] px-5 md:px-10 py-10">
         {/* header */}
         <header className="bg-[#fbfdfe] flex justify-between rounded-2xl m-5 px-5">
-          <img src="src/images/logo.svg" />
+          <img src={logo} />
 
           <button className="rounded-lg border border-gray-300 py-2 px-2 my-3  hover:bg-gray-200 active:bg-gray-300">
-            <img
-              src="src/images/icon-moon.svg"
-              className="h-5 w-5 cursor-pointer"
-            />
+            <img src={icon_moon} className="h-5 w-5 cursor-pointer" />
           </button>
         </header>
 
@@ -22,7 +22,7 @@ function App() {
           flex-col items-center 
           md:flex-row"
         >
-          <div className="font-bold text-4xl text-[#070e37] m-5">
+          <div className="font-bold text-3xl text-[#070e37] m-5">
             Extensions List
           </div>
 
@@ -61,7 +61,7 @@ function App() {
         {/* cards div */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5">
           {/*card 1 */}
-          <div className="bg-[#fbfdfe] rounded-2xl ">
+          <div className="bg-[#fbfdfe] rounded-2xl">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
               <img src="images/logo-devlens-1.svg" />
@@ -81,10 +81,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -125,10 +125,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -168,10 +168,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -212,10 +212,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -256,10 +256,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -301,10 +301,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -346,10 +346,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -391,10 +391,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -435,10 +435,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -479,10 +479,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -523,10 +523,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
@@ -568,10 +568,10 @@ function App() {
               </button>
 
               {/*toggle button */}
-              <label class="inline-flex items-center cursor-pointer">
+              <label className="inline-flex items-center cursor-pointer">
                 <input type="checkbox" value="" class="sr-only peer" />
                 <div
-                  class="relative
+                  className="relative
                  w-9 h-5 rounded-full
                 bg-gray-300
 
