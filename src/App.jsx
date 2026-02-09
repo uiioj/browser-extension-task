@@ -1,5 +1,18 @@
 import logo from "./images/logo.svg";
 import icon_moon from "./images/icon-moon.svg";
+import logo_devlens_1 from "./images/logo-devlens-1.svg";
+import logo_style_spy_2 from "./images/logo-style-spy-2.svg";
+import logo_speed_boost_3 from "./images/logo-speed-boost-3.svg";
+import logo_json_wizard_4 from "./images/logo-json-wizard-4.svg";
+import logo_tab_master_pro_5 from "./images/logo-tab-master-pro-5.svg";
+import logo_viewport_buddy_6 from "./images/logo-viewport-buddy-6.svg";
+
+import logo_markup_notes_7 from "./images/logo-markup-notes-7.svg";
+import logo_grid_guides_8 from "./images/logo-grid-guides-8.svg";
+import logo_palette_picker_9 from "./images/logo-palette-picker-9.svg";
+import logo_link_checker_10 from "./images/logo-link-checker-10.svg";
+import logo_dom_snapshot_11 from "./images/logo-dom-snapshot-11.svg";
+import logo_console_plus_12 from "./images/logo-console-plus-12.svg";
 
 function App() {
   return (
@@ -64,7 +77,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-devlens-1.svg" />
+              <img src={logo_devlens_1} />
               <div className="font-bold text-xl text-[#070e37]">
                 DevLens
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
@@ -107,8 +120,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-style-spy-2.svg" />
-
+              <img src={logo_style_spy_2} />
               <div className="font-bold text-xl text-[#070e37]">
                 StyleSpy
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
@@ -151,7 +163,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-speed-boost-3.svg" />
+              <img src={logo_speed_boost_3} />
               <div className="font-bold text-xl text-[#070e37]">
                 Speedboots
                 <div className="flex justify-between text-[#827f85] text-sm font-normal">
@@ -194,7 +206,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-json-wizard-4.svg" />
+              <img src={logo_json_wizard_4} />
 
               <div className="font-bold text-xl text-[#070e37]">
                 JSONWizard
@@ -238,7 +250,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-tab-master-pro-5.svg" />
+              <img src={logo_tab_master_pro_5} />
 
               <div className="font-bold text-xl text-[#070e37]">
                 TabMaster Pro
@@ -282,7 +294,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-viewport-buddy-6.svg" />
+              <img src={logo_viewport_buddy_6} />
 
               <div className="font-bold text-xl text-[#070e37]">
                 ViewportBuddy
@@ -327,7 +339,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-markup-notes-7.svg" />
+              <img src={logo_markup_notes_7} />
 
               <div className="font-bold text-xl text-[#070e37]">
                 Markup Notes
@@ -372,7 +384,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-grid-guides-8.svg" />
+              <img src={logo_grid_guides_8} />
 
               <div className="font-bold text-xl text-[#070e37]">
                 GridGuides
@@ -417,7 +429,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-palette-picker-9.svg" />
+              <img src={logo_palette_picker_9} />
 
               <div className="font-bold text-xl text-[#070e37]">
                 Palette Picker
@@ -461,7 +473,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-link-checker-10.svg" />
+              <img src={logo_link_checker_10} />
 
               <div className="font-bold text-xl text-[#070e37]">
                 LinkChecker
@@ -505,7 +517,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-dom-snapshot-11.svg" />
+              <img src={logo_dom_snapshot_11} />
 
               <div className="font-bold text-xl text-[#070e37]">
                 DOM Snapshot
@@ -549,7 +561,7 @@ function App() {
           <div className="bg-[#fbfdfe] rounded-2xl ">
             {/*اللي فوق */}
             <div className=" p-4 flex gap-2">
-              <img src="images/logo-console-plus-12.svg" />
+              <img src={logo_console_plus_12} />
 
               <div className="font-bold text-xl text-[#070e37]">
                 ConsolePlus
